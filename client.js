@@ -15,6 +15,21 @@ $(document).ready(function() {
     // set the current shout out with the new index
     setCurrentShoutOut(currentPersonIndex);
   });
+
+  $('#previousButton').on('click', function() {
+    // Decreasing the index by one to go to the previous person
+    currentPersonIndex--;
+
+    // Detect if we have gotten to the beginning of the array
+    // go to the end if we have
+    if (currentPersonIndex < 0) {
+      currentPersonIndex = peopleArray.length - 1;
+    }
+
+    // set the current shout out with the new index
+    setCurrentShoutOut(currentPersonIndex);
+  });
+
 });
 
 function setCurrentShoutOut (currentIndex) {
