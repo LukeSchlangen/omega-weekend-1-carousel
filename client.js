@@ -33,5 +33,32 @@ $(document).ready(function() {
 });
 
 function setCurrentShoutOut (currentIndex) {
-  console.log(peopleArray[currentIndex]);
+  var currentPerson = peopleArray[currentIndex];
+  console.log(currentPerson);
+  $shoutLine = $('<p></p>');
+  $shoutLine.append(currentPerson.name);
+  $shoutLine.append(': ');
+  $shoutLine.append(currentPerson.shoutout);
+  $('.container').html($shoutLine);
+  $('.container').append('<p>' + (currentIndex + 1) + '/' + peopleArray.length + '</p>');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// placeholder
