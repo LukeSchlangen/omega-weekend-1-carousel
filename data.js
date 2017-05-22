@@ -1,18 +1,7 @@
 var peopleArray = [
-  {name: 'Ben Zeise', shoutout: '' },
-  {name: 'Brett Miller', shoutout: '' },
-  {name: 'Carl Page', shoutout: '' },
-  {name: 'Corey Sader', shoutout: '' },
-  {name: 'Erin Marie Black', shoutout: '' },
-  {name: 'Helena Black', shoutout: '' },
-  {name: 'Hogan McDonald', shoutout: '' },
-  {name: 'Jason Ruby', shoutout: '' },
-  {name: 'Jose Arturo Leyva', shoutout: '' },
-  {name: 'Lindsey Olson', shoutout: '' },
-  {name: 'Miles Nelson', shoutout: '' },
-  {name: 'Mohamed Mohamed', shoutout: '' },
-  {name: 'Moises Hernandez', shoutout: '' },
-  {name: 'Noah Rolf', shoutout: '' },
-  {name: 'Peter Wildberger', shoutout: '' },
-  {name: 'Shannon Martin', shoutout: '' },
+  {name: 'Ben Zeise', shoutout: 'That guy is really cool!' },
+  {name: 'Brett Miller', shoutout: 'Oh my god...' },
+  {name: 'Carl Page', shoutout: 'Rock on dude!' },
+  {name: 'Corey Sader', shoutout: 'Wazzzuuuupp???' },
+  {name: 'Erin Marie Black', shoutout: 'Super into doll heads' }
 ];
